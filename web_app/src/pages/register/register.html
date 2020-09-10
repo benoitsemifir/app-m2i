@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'enregistrer</title>
+</head>
+
+<body>
+    <nav>
+        <a href="../../index.html">Accueil</a>
+        <a href="../register/register.html">S'enregister</a>
+        <a href="../search/search.html">Rechercher</a>
+        <a href="../login/login.html">Connexion</a>
+        <a href="../admin/admin.html">Administration</a>
+    </nav>
+    <form id="registerForm" method="POST">
+        <div>
+            <label for="lastname">Nom : </label>
+            <input type="text" id="lastname" name="firstname">
+        </div>
+        <div>
+            <label for="firstname">Prénom :</label>
+            <input type="text" id="firstname" name="firstname"> 
+        </div>
+        <div>
+            <label for="birth">Date de naissance :</label>
+            <input type="date" id="birth" name="birth">
+        </div>
+        <div>
+            <label for="email">Courriel :</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="login">Login :</label>
+            <input type="text" id="login" name="login">
+        </div>
+        <div>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <input type="submit" id="registerButton" value="S'enregistrer">
+    </form>
+    <script src="../../utils/hashage.js"></script>
+    <script src="./register.js"></script>
+</body>
+
+</html>
